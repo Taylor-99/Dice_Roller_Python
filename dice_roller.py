@@ -9,39 +9,39 @@ diceRoll = 0
 
 while (diceRoll < numDiceRoll) :
 
-    no = random.randint(1,6)
+    dieNum = random.randint(1,6)
 
-    if no == 1:
+    if dieNum == 1:
         print("[-----]")
         print("[     ]")
         print("[  0  ]")
         print("[     ]")
         print("[-----]")
-    if no == 2:
+    if dieNum == 2:
         print("[-----]")
         print("[ 0   ]")
         print("[     ]")
         print("[   0 ]")
         print("[-----]")
-    if no == 3:
+    if dieNum == 3:
         print("[-----]")
         print("[     ]")
         print("[0 0 0]")
         print("[     ]")
         print("[-----]")
-    if no == 4:
+    if dieNum == 4:
         print("[-----]")
         print("[0   0]")
         print("[     ]")
         print("[0   0]")
         print("[-----]")
-    if no == 5:
+    if dieNum == 5:
         print("[-----]")
         print("[0   0]")
         print("[  0  ]")
         print("[0   0]")
         print("[-----]")
-    if no == 6:
+    if dieNum == 6:
         print("[-----]")
         print("[0 0 0]")
         print("[     ]")
